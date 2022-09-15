@@ -1,0 +1,32 @@
+<html>
+    <body>
+        <script>
+        let imc ;
+        let peso = 90;
+        let altura = 1.80;
+
+        imc =  peso / (altura * altura);
+        
+        console.log(imc);
+        
+        if(imc <= 18.5){
+            console.log("abaixo do peso");
+        }
+        if(imc <= 24.9 && imc >= 18.6){
+            console.log("Peso ideal parabéns");
+        }
+        if(imc <= 25 && imc >= 29.9){
+            console.log("levemente acima do peso");
+        }
+        if(imc <= 30 && imc >= 34.9){
+            console.log("Obesidade I");
+        }
+        if(imc <= 35 && imc >= 39.9){
+            console.log("Obesidade II severo");
+        }
+        if(imc >= 40){
+            console.log("Obesidade III Morbida");
+        }
+        </script>
+    </body>
+</html>
